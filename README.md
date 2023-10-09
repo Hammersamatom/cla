@@ -23,6 +23,7 @@ Command used: ```yosys -p 'synth_ecp5 -top true_cla' true_cla.v```
 Equation[^1]: 0.91x<sup>2</sup> + 20x - 298
 
 [^1]: Not entirely accurate, huge margin for error
+
 |XLEN|PFUMX|LUT4|L6MUX21|Total Cells|
 |-|-|-|-|-|
 |1|0|2|0|2|
