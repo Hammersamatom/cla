@@ -5,7 +5,9 @@ This is a generic, parameterized (sort of), implementation of a carry lookahead 
 ### Generic Synth
 Command used: ```yosys -p 'synth -top true_cla' true_cla.v```
 
-Equation: 1.52x<sup>2</sup> + 8.27x - 31.8
+Equation: 1.52x<sup>2</sup> + 8.27x - 31.8 <br/>
+R<sup>2</sup>: 1
+
 |XLEN|AND|ANDNOT|NAND|NOR|NOT|ORNOT|XNOR|XOR|Total Cells|
 |-|-|-|-|-|-|-|-|-|-|
 |1|0|1|1|0|0|1|2|0|5|
@@ -20,7 +22,8 @@ Equation: 1.52x<sup>2</sup> + 8.27x - 31.8
 ### ECP5
 Command used: ```yosys -p 'synth_ecp5 -top true_cla' true_cla.v```
 
-Equation[^1]: 0.91x<sup>2</sup> + 20x - 298
+Equation[^1]: 0.91x<sup>2</sup> + 20x - 298 <br/>
+R<sup>2</sup>: 0.975
 
 [^1]: Not entirely accurate, huge margin for error
 
