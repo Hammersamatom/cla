@@ -9,7 +9,7 @@ module cla
     output wire [BITS - 1:0] _s_out,
     output wire _c_out
 );
-    // Propogate / Generate
+    // Propagate / Generate
     wire [BITS - 1:0] w_prop;
     assign w_prop[BITS - 1:0] = _a_in[BITS - 1:0] ^ _b_in[BITS - 1:0];
 
