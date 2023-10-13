@@ -1,6 +1,6 @@
 # Carry Lookahead Adder
 
-This is a generic, parameterized (sort of), implementation of a carry lookahead adder in Verilog. It's been verified to work up to 32 bits, but nothing beyond that.
+This is a generic, parameterized (sort of), implementation of a Carry Lookahead Adder (CLA) in Verilog. It's been verified to work up to 32 bits, but nothing beyond that.
 
 ### Generic Synth
 Command used: ```yosys -p 'synth -top true_cla' true_cla.v```
